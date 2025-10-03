@@ -43,11 +43,11 @@
             // | SHFT | BTCR| RGB | RST | BOOT| Unlock|        |       |     |     |     |     |     |      |
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
             bindings = <
-                &kp N1       &kp N2          &kp N3       &kp N4       &kp N5       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 
-                &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans 
-                &bt BT_CLR   &rgb_ug RGB_TOG &sys_reset   &bootloader  &studio_unlock   &trans   &trans   &trans &trans    &trans 
-                                 &kp LGUI     &trans       &kp SPACE    &kp LGUI &trans   &kp SPACE
-            >;
+               &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR 
+               trans   trans trans   trans   trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH 
+               trans   trans trans   trans   trans      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE 
+                        &kp LGUI trans   &kp SPACE                     &kp RET   trans    &kp RALT
+           >;
         };
 
         raise_layer {
@@ -59,70 +59,72 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
             bindings = <
                 &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR 
-                &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH 
-                &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE 
-                          &kp LGUI &trans   &kp SPACE                     &kp RET   &trans    &kp RALT
+                trans   trans trans   trans   trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH 
+                trans   trans trans   trans   trans      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE 
+                          &kp LGUI trans   &kp SPACE                     &kp RET   trans    &kp RALT
             >;
         };
 
         extra_layer_1 {
             display-name = "EXTRA 1";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans       
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans       
             >;
         };
 
         extra_layer_2 {
             display-name = "EXTRA 2";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans     
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans     
             >;
         };
 
         extra_layer_3 {
             display-name = "EXTRA 3";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans     
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans     
             >;
         };
 
         extra_layer_4 {
             display-name = "EXTRA 4";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans       
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans       
             >;
         };
 
         extra_layer_5 {
             display-name = "EXTRA 5";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans        
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans        
             >;
         };
 
         extra_layer_6 {
             display-name = "EXTRA 6";
             bindings = <
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans 
-                    &trans &trans &trans               &trans &trans &trans         
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                trans trans trans trans trans  trans trans trans trans trans 
+                    trans trans trans               trans trans trans         
             >;
         };
     };
 };
+
+
