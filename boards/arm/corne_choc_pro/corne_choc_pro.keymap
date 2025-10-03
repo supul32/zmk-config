@@ -50,6 +50,8 @@
                         &kp LGUI &trans   &kp SPACE                     &kp RET   &trans    &kp RALT
            >;
         };
+        
+        /*
 
         raise_layer {
             display-name = "SYMBOL";
@@ -65,6 +67,7 @@
                           &kp LGUI &trans   &kp SPACE                     &kp RET   &trans    &kp RALT
             >;
         };
+        
 
         extra_layer_1 {
             display-name = "EXTRA 1";
@@ -125,7 +128,10 @@
                     &trans &trans &trans               &trans &trans &trans         
             >;
         };
+
+        */
     };
+
 };
 
 
